@@ -1,0 +1,14 @@
+AWS CodeCommit
+- Automatically scales, eliminating the new to host, maintain, scale, or backup own source control servers
+- Encourages Collab on code by allowing workflows to be implemented that include code reviews and feedback systems.
+- Speeds up development lifecycle by allowing developers to commit incremental changes instead of an entire application.
+
+Azure Repos
+- Encourages collab and more effective code reviews by offering threaded discussions and continuous integration for every change.
+- Protects the integrity of code by requiring code reviewer sign-off and code to pass tests before being merged.
+- Integrates seamlessly with Azure Pipelines to offer full functional CI/CD systems
+
+Git
+- Uses a unique branching model to allow frictionless context switching, role-based code lines, experimentation, and feature-based workflow.
+- Provides multiple backups so that there is no single point of failure within Git
+- Provides an intermediate "Staging Area" for commits to be formatted and reviewed before publishing.
