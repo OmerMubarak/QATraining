@@ -1,0 +1,7 @@
+git branch -a | grep -i "mybranchname"
+
+git branch is the git command for branches
+grep is the search function after you input the pipeline >  |  <
+-i gets rid case sensitivity in searches 
+You apostrophe "thedesiredbranchtosearch"
+
