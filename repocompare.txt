@@ -12,3 +12,5 @@ Git
 - Uses a unique branching model to allow frictionless context switching, role-based code lines, experimentation, and feature-based workflow.
 - Provides multiple backups so that there is no single point of failure within Git
 - Provides an intermediate "Staging Area" for commits to be formatted and reviewed before publishing.
+
+- Git sometimes deletes your whole work.
