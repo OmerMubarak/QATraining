@@ -76,5 +76,10 @@ SELECT name FROM language ORDER BY name DESC;
 # 24 List the full names of every actor whose surname ends with '-son' in alphabetical order by their forename.
 SELECT first_name, last_name FROM actor WHERE last_name LIKE "%son" ORDER BY first_name ASC;
 
-#25 Which category contains the most films?
+# 25 Which category contains the most films?
 SELECT category,COUNT(CATEGORY) FROM FILM_LIST GROUP BY CATEGORY ORDER BY COUNT(CATEGORY) DESC LIMIT 2;
+
+# 25 2ND solution using join 
+SELECT f.category,COUNT(c.category_id) as catid
+FROM film_list f
+JOIN film_category c ON f.fid=c.film_id GROUP BY f.category ORDER BY catid DESC LIMIT 2;
