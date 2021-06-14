@@ -1,0 +1,25 @@
+an object is a table of data where records are rows and fields are columns
+
+a user is someone with login access to your salesforce who has a license and a user records
+
+A profile is a collectin of settings that determine what users can see in their user interface,
+and what they can do.
+
+Restrictions
+Restrict by Ip, Restrict logins by date and time.
+
+The most restrictive settings always win.
+
+OWD 
+Organisational wide default
+
+Data security - users only see they records they should see, and sensitive information stays safe.
+
+Data filtering - users see only the records they want to see. Searches and reports show only those records relevant to the user.
+
+What is a user?
+Someone with login access to your salesforce organisation who has a license and a user record containing personal, security and locale information.
+
+Task,
+
+Choose a salesforce customer task !!
