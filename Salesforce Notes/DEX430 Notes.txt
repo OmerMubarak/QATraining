@@ -1,0 +1,80 @@
+Salesforce DEX 403 Notes
+
+- Apps have built in security.
+- Built in business logic.
+
+Why choose salesforce?
+- Ability for nontechnical person maintain and make changes through ui.
+
+Ability to gain new features is a key aspect
+
+Declaritive is faster than coding.
+Easier to maintain.
+Automatic accesss to updates of the feature sett.
+no coding skills required.
+
+programattic customisations - 
+greater flexibility and more complex logic
+visualfoce give full pixel capabilities compared to standard features
+
+most applications become a blend of declaritive and programattic
+
+As a dev-
+You want to learn both declaritive and programattic 
+
+App- Collection of tabs grouped together around a specific business function.
+
+Job_application is a junction object.
+
+Lookup create a one to many relationship.
+
+Many to many relationship
+- Use of a junction object,
+- A Child of two parents
+- Most basic is two id's of the objects.
+
+Salesforce Object is analogous to tables in a database.
+
+Object security is greater than field level security
+- Security object
+-
+
+Objects are a higher levle of abstraction that a table.
+
+More than tables in a database.
+
+At the most fundamental level - it is a lot like a table in a database.
+
+Objects
+- Standard -  provided out of the box
+- Custom - Created by ourselves to extend the data model
+- System - System, Users, Roles
+
+Junction Objects,
+
+is a custom object with two master-detail relationships.
+It allows you to model a "many-to-many" relationship between two objects.
+
+
+External Objects,
+
+An external object is similar to a customer object but maps to data stored 
+outside of Salesforce accessed via Salesforce Connect.
+
+Salesforce Connect is a data integration tool that connects external data and gives it native
+platform ability inside Salesforce.
+
+Profile,
+
+Profiles define how users access objects and data, and what users can do in Salesforce. 
+When you create users, you must assign exactly one profile to each user.
+
+Permission sets,
+
+Permission sets are groups of permissions that can be assigned to specific users in addition
+to their existing profile permissions.
+
+Permission set groups,
+
+Permission set groups allow you to combine multiple permission sets into a single permission
+set group for user assignment.
